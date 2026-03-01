@@ -43,7 +43,7 @@ A production-style microservices implementation built with **ASP.NET Core**, dem
 
 ## 🛠️ Tech Stack
 
-- **Framework:** ASP.NET Core (.NET 6/7)
+- **Framework:** ASP.NET Core (.NET 8)
 - **API Gateway:** Ocelot
 - **Authentication:** JWT Bearer Tokens
 - **Database:** SQLite (via Entity Framework Core)
@@ -68,7 +68,7 @@ A production-style microservices implementation built with **ASP.NET Core**, dem
 
 ### Prerequisites
 
-- [.NET 6 SDK or higher](https://dotnet.microsoft.com/download)
+- [.NET 8 SDK or higher](https://dotnet.microsoft.com/download)
 - Visual Studio 2022 or VS Code
 - No external database setup required — SQLite is embedded
 
