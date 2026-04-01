@@ -1,6 +1,6 @@
 ﻿using System;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
-
 #nullable disable
 
 namespace Infrastructure.Migrations
