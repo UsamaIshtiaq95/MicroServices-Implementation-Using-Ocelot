@@ -43,7 +43,7 @@ builder.Services.AddAuthentication("Bearer")
     });
 //builder.Services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(AppDomain.CurrentDomain.GetAssemblies()));
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseSqlite(builder.Configuration.GetConnectionString("UserDbConnection")));
+    options.UseSqlServer(builder.Configuration.GetConnectionString("UserDbConnection")));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
