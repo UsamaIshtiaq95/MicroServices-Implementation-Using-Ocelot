@@ -20,13 +20,13 @@ public class TokenService : ITokenService
         _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret));
     }
 
-    public string CreateToken(User user)
+    public string CreateToken(EntityModels user)
     {
         try
         {
             var claims = new List<Claim>
             {
-                new Claim(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
+                new Claim(JwtRegisteredClaimNames.Sub, user.UserId.ToString()),
                 new Claim(JwtRegisteredClaimNames.Email, user.Email),
                 new Claim(JwtRegisteredClaimNames.Name, user.Name),
                 new Claim(JwtRegisteredClaimNames.Jti, Guid.NewGuid().ToString())
