@@ -22,7 +22,7 @@ namespace Infrastructure.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
-            modelBuilder.Entity("UserDomain.Entities.AIResult", b =>
+            modelBuilder.Entity("AIResults", b =>
                 {
                     b.Property<int>("ResultId")
                         .ValueGeneratedOnAdd()
@@ -52,7 +52,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("AIResults");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.Admin", b =>
+            modelBuilder.Entity("UserDomain.Entities.Admins", b =>
                 {
                     b.Property<int>("AdminId")
                         .ValueGeneratedOnAdd()
@@ -86,7 +86,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("Admins");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.ApiKey", b =>
+            modelBuilder.Entity("UserDomain.Entities.ApiKeys", b =>
                 {
                     b.Property<int>("ApiKeyId")
                         .ValueGeneratedOnAdd()
@@ -112,7 +112,37 @@ namespace Infrastructure.Migrations
                     b.ToTable("ApiKeys");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.Chat", b =>
+            modelBuilder.Entity("UserDomain.Entities.ChatMessages", b =>
+                {
+                    b.Property<int>("MessageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MessageId"));
+
+                    b.Property<int>("ChatId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("MessageText")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Sender")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("MessageId");
+
+                    b.HasIndex("ChatId");
+
+                    b.ToTable("ChatMessages");
+                });
+
+            modelBuilder.Entity("UserDomain.Entities.Chats", b =>
                 {
                     b.Property<int>("ChatId")
                         .ValueGeneratedOnAdd()
@@ -143,37 +173,7 @@ namespace Infrastructure.Migrations
                     b.ToTable("Chats");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.ChatMessage", b =>
-                {
-                    b.Property<int>("MessageId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("MessageId"));
-
-                    b.Property<int>("ChatId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("MessageText")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Sender")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("MessageId");
-
-                    b.HasIndex("ChatId");
-
-                    b.ToTable("ChatMessages");
-                });
-
-            modelBuilder.Entity("UserDomain.Entities.Context", b =>
+            modelBuilder.Entity("UserDomain.Entities.Contexts", b =>
                 {
                     b.Property<int>("ContextId")
                         .ValueGeneratedOnAdd()
@@ -201,7 +201,90 @@ namespace Infrastructure.Migrations
                     b.ToTable("Contexts");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.EntityModels", b =>
+            modelBuilder.Entity("UserDomain.Entities.Images", b =>
+                {
+                    b.Property<int>("ImageId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ImageId"));
+
+                    b.Property<string>("FileName")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("nvarchar(255)");
+
+                    b.Property<string>("FilePath")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<int?>("RoomId")
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("UploadedAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("ImageId");
+
+                    b.HasIndex("RoomId");
+
+                    b.ToTable("Images");
+                });
+
+            modelBuilder.Entity("UserDomain.Entities.Logs", b =>
+                {
+                    b.Property<int>("LogId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LogId"));
+
+                    b.Property<string>("Action")
+                        .IsRequired()
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int?>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("LogId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("Logs");
+                });
+
+            modelBuilder.Entity("UserDomain.Entities.Rooms", b =>
+                {
+                    b.Property<int>("RoomId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoomId"));
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("RoomName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("RoomSize")
+                        .IsRequired()
+                        .HasMaxLength(50)
+                        .HasColumnType("nvarchar(50)");
+
+                    b.HasKey("RoomId");
+
+                    b.ToTable("Rooms");
+                });
+
+            modelBuilder.Entity("UserDomain.Entities.Users", b =>
                 {
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
@@ -240,92 +323,9 @@ namespace Infrastructure.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.Image", b =>
+            modelBuilder.Entity("AIResults", b =>
                 {
-                    b.Property<int>("ImageId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ImageId"));
-
-                    b.Property<string>("FileName")
-                        .IsRequired()
-                        .HasMaxLength(255)
-                        .HasColumnType("nvarchar(255)");
-
-                    b.Property<string>("FilePath")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<int?>("RoomId")
-                        .HasColumnType("int");
-
-                    b.Property<DateTime>("UploadedAt")
-                        .HasColumnType("datetime2");
-
-                    b.HasKey("ImageId");
-
-                    b.HasIndex("RoomId");
-
-                    b.ToTable("Images");
-                });
-
-            modelBuilder.Entity("UserDomain.Entities.Log", b =>
-                {
-                    b.Property<int>("LogId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("LogId"));
-
-                    b.Property<string>("Action")
-                        .IsRequired()
-                        .HasMaxLength(500)
-                        .HasColumnType("nvarchar(500)");
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<int?>("UserId")
-                        .HasColumnType("int");
-
-                    b.HasKey("LogId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("Logs");
-                });
-
-            modelBuilder.Entity("UserDomain.Entities.Room", b =>
-                {
-                    b.Property<int>("RoomId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("RoomId"));
-
-                    b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
-
-                    b.Property<string>("RoomName")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("nvarchar(100)");
-
-                    b.Property<string>("RoomSize")
-                        .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("nvarchar(50)");
-
-                    b.HasKey("RoomId");
-
-                    b.ToTable("Rooms");
-                });
-
-            modelBuilder.Entity("UserDomain.Entities.AIResult", b =>
-                {
-                    b.HasOne("UserDomain.Entities.Chat", "Chat")
+                    b.HasOne("UserDomain.Entities.Chats", "Chat")
                         .WithMany("AIResults")
                         .HasForeignKey("ChatId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -334,21 +334,32 @@ namespace Infrastructure.Migrations
                     b.Navigation("Chat");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.Chat", b =>
+            modelBuilder.Entity("UserDomain.Entities.ChatMessages", b =>
                 {
-                    b.HasOne("UserDomain.Entities.Context", "Context")
+                    b.HasOne("UserDomain.Entities.Chats", "Chat")
+                        .WithMany("ChatMessages")
+                        .HasForeignKey("ChatId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Chat");
+                });
+
+            modelBuilder.Entity("UserDomain.Entities.Chats", b =>
+                {
+                    b.HasOne("UserDomain.Entities.Contexts", "Context")
                         .WithMany()
                         .HasForeignKey("ContextId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("UserDomain.Entities.Room", "Room")
+                    b.HasOne("UserDomain.Entities.Rooms", "Room")
                         .WithMany("Chats")
                         .HasForeignKey("RoomId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("UserDomain.Entities.EntityModels", "User")
+                    b.HasOne("UserDomain.Entities.Users", "User")
                         .WithMany("Chats")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -361,54 +372,43 @@ namespace Infrastructure.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.ChatMessage", b =>
+            modelBuilder.Entity("UserDomain.Entities.Images", b =>
                 {
-                    b.HasOne("UserDomain.Entities.Chat", "Chat")
-                        .WithMany("ChatMessages")
-                        .HasForeignKey("ChatId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Chat");
-                });
-
-            modelBuilder.Entity("UserDomain.Entities.Image", b =>
-                {
-                    b.HasOne("UserDomain.Entities.Room", "Room")
+                    b.HasOne("UserDomain.Entities.Rooms", "Room")
                         .WithMany("Images")
                         .HasForeignKey("RoomId");
 
                     b.Navigation("Room");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.Log", b =>
+            modelBuilder.Entity("UserDomain.Entities.Logs", b =>
                 {
-                    b.HasOne("UserDomain.Entities.EntityModels", "User")
+                    b.HasOne("UserDomain.Entities.Users", "User")
                         .WithMany("Logs")
                         .HasForeignKey("UserId");
 
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.Chat", b =>
+            modelBuilder.Entity("UserDomain.Entities.Chats", b =>
                 {
                     b.Navigation("AIResults");
 
                     b.Navigation("ChatMessages");
                 });
 
-            modelBuilder.Entity("UserDomain.Entities.EntityModels", b =>
-                {
-                    b.Navigation("Chats");
-
-                    b.Navigation("Logs");
-                });
-
-            modelBuilder.Entity("UserDomain.Entities.Room", b =>
+            modelBuilder.Entity("UserDomain.Entities.Rooms", b =>
                 {
                     b.Navigation("Chats");
 
                     b.Navigation("Images");
+                });
+
+            modelBuilder.Entity("UserDomain.Entities.Users", b =>
+                {
+                    b.Navigation("Chats");
+
+                    b.Navigation("Logs");
                 });
 #pragma warning restore 612, 618
         }

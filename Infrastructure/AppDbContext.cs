@@ -6,17 +6,17 @@ namespace Infrastructure;
 
 public class AppDbContext : DbContext
 {
-    //public DbSet<User> Users { get; set; } = null!;
-    public DbSet<EntityModels> Users { get; set; }
-    public DbSet<Admin> Admins { get; set; }
-    public DbSet<Room> Rooms { get; set; }
-    public DbSet<Context> Contexts { get; set; }
-    public DbSet<Chat> Chats { get; set; }
-    public DbSet<ChatMessage> ChatMessages { get; set; }
-    public DbSet<Log> Logs { get; set; }
-    public DbSet<Image> Images { get; set; }
-    public DbSet<ApiKey> ApiKeys { get; set; }
-    public DbSet<AIResult> AIResults { get; set; }
+    public DbSet<Users> Users { get; set; } = null!;
+    //public DbSet<Users> Users { get; set; }
+    public DbSet<Admins> Admins { get; set; }
+    public DbSet<Rooms> Rooms { get; set; }
+    public DbSet<Contexts> Contexts { get; set; }
+    public DbSet<Chats> Chats { get; set; }
+    public DbSet<ChatMessages> ChatMessages { get; set; }
+    public DbSet<Logs> Logs { get; set; }
+    public DbSet<Images> Images { get; set; }
+    public DbSet<ApiKeys> ApiKeys { get; set; }
+    public DbSet<AIResults> AIResults { get; set; }
 
 
     public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }

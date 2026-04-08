@@ -20,7 +20,7 @@ public class TokenService : ITokenService
         _key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(secret));
     }
 
-    public string CreateToken(EntityModels user)
+    public string CreateToken(Users user)
     {
         try
         {

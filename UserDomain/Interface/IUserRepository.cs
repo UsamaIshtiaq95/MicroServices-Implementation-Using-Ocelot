@@ -4,7 +4,7 @@ namespace UserDomain.Interface;
 public interface IUserRepository
 {
     Task<int> GetByEmailAsync(string email);
-    Task<EntityModels> GetLoginAsync(string email);
-    Task AddAsync(EntityModels user);
-    Task<int> UpdateDetailsAsync(EntityModels user);
+    Task<Users> GetLoginAsync(string email);
+    Task AddAsync(Users user);
+    Task<int> UpdateDetailsAsync(Users user);
 }

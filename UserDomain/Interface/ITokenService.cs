@@ -4,5 +4,5 @@ using UserDomain.Entities;
 namespace UserDomain.Interface;
 public interface ITokenService
 {
-    string CreateToken(EntityModels user);
+    string CreateToken(Users user);
 }
