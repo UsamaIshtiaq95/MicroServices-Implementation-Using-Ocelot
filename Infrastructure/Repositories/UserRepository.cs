@@ -42,7 +42,7 @@ namespace Infrastructure.Repositories
         }
 
 
-        public async Task<User> GetLoginAsync(string email)
+        public async Task<EntityModels> GetLoginAsync(string email)
         {
             try
             {
@@ -53,12 +53,12 @@ namespace Infrastructure.Repositories
                 throw new DatabaseUnavailableException("DataBase not connected");
             }
         }
-        public async Task AddAsync(User user)
+        public async Task AddAsync(EntityModels user)
         {
             await _context.Users.AddAsync(user);
             await _context.SaveChangesAsync();
         }
-        public async Task<int> UpdateDetailsAsync(User user)
+        public async Task<int> UpdateDetailsAsync(EntityModels user)
         {
             if (user == null)
             {

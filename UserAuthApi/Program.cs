@@ -12,7 +12,7 @@ using UserAuthApi.Middleware;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<IUserRepository, UserRepository>();
-builder.Services.AddScoped<IPasswordHasher<User>, PasswordHasher<User>>();
+builder.Services.AddScoped<IPasswordHasher<EntityModels>, PasswordHasher<EntityModels>>();
 builder.Services.AddScoped<ITokenService, TokenService>();
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

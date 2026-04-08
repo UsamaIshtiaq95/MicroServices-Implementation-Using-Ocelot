@@ -7,9 +7,9 @@ using UserDomain.Interface;
 public class RegisterHandler : IRequestHandler<RegisterRequest, UpdateUserDetailResponse>
 {
     private readonly IUserRepository _repo;
-    private readonly IPasswordHasher<User> _hasher;
+    private readonly IPasswordHasher<EntityModels> _hasher;
 
-    public RegisterHandler(IUserRepository repo, IPasswordHasher<User> hasher)
+    public RegisterHandler(IUserRepository repo, IPasswordHasher<EntityModels> hasher)
     {
         _repo = repo;
         _hasher = hasher;
@@ -25,7 +25,7 @@ public class RegisterHandler : IRequestHandler<RegisterRequest, UpdateUserDetail
                 response = "Email already registered"
             };
 
-        var user = new User
+        var user = new EntityModels
         {
             Name = request.Name,
             Email = request.Email
