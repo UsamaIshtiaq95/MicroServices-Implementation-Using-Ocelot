@@ -23,7 +23,7 @@ public class UpdateUserDetailHandler : IRequestHandler<UpdateUserDetailRequest, 
         var existing = await _repo.GetByEmailAsync(request.Email);
         if (existing == null||existing==0)
             throw new NotFoundException("No user found with this email");
-        var user = new EntityModels
+        var user = new Users
         {Email=request.Email,
             Name = request.Name,
 

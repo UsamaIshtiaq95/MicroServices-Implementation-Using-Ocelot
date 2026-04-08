@@ -8,10 +8,10 @@ using UserDomain.Interface;
 public class LoginHandler : IRequestHandler<LoginRequest, LoginResponse>
 {
     private readonly IUserRepository _repo;
-    private readonly IPasswordHasher<EntityModels> _hasher;
+    private readonly IPasswordHasher<Users> _hasher;
     private readonly ITokenService _tokenService;
 
-    public LoginHandler(IUserRepository repo, IPasswordHasher<EntityModels> hasher, ITokenService tokenService)
+    public LoginHandler(IUserRepository repo, IPasswordHasher<Users> hasher, ITokenService tokenService)
     {
         _repo = repo;
         _hasher = hasher;
