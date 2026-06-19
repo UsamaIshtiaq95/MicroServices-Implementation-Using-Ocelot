@@ -1,4 +1,4 @@
-﻿using Ocelot.DependencyInjection;
+using Ocelot.DependencyInjection;
 using Ocelot.Middleware;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -22,7 +22,7 @@ var app = builder.Build();
 app.UseHttpsRedirection();
 
 //app.UseAuthorization();
-// ✅ Intercept /swagger before Ocelot handles it
+// ? Intercept /swagger before Ocelot handles it
 
 await app.UseOcelot();
 

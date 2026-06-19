@@ -1,0 +1,1 @@
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\.sonarqube\out\0

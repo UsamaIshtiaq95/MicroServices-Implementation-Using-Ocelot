@@ -1,4 +1,4 @@
-﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using UserDomain;
@@ -23,10 +23,7 @@ namespace Infrastructure.Repositories
 
                 // Create command to check for table
                 using var command = connection.CreateCommand();
-                command.CommandText = "SELECT COUNT(*) FROM sqlite_master WHERE type='table' AND name='Users'";
-
-                // Execute scalar query
-                var tableExists = await command.ExecuteScalarAsync();
+          
 
 
                 var response = await _context.Users.CountAsync(x => x.Email == email);
@@ -55,8 +52,18 @@ namespace Infrastructure.Repositories
         }
         public async Task AddAsync(Users user)
         {
-            await _context.Users.AddAsync(user);
-            await _context.SaveChangesAsync();
+            try
+            {
+              var r=   await _context.Users.AddAsync(user);
+             var s =   await _context.SaveChangesAsync();
+                return;
+
+            }
+            catch (Exception ex)
+            {
+                // log error here
+                throw; // bubble up, let controller set status code
+            }
         }
         public async Task<int> UpdateDetailsAsync(Users user)
         {

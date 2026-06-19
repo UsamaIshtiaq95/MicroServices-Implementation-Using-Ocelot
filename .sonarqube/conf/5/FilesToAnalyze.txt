@@ -1,0 +1,13 @@
+﻿H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\Controllers\AuthApiController.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\Middleware\ExceptionMiddlware.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\Program.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\WeatherForecast.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\obj\Debug\net10.0\UserAuthApi.GlobalUsings.g.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\obj\Debug\net10.0\UserAuthApi.AssemblyInfo.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\obj\Debug\net10.0\UserAuthApi.MvcApplicationPartsAssemblyInfo.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\appsettings.Development.json
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\appsettings.json
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\UserAuthApi.http
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\UserDb.sqlite
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\UserAuthApi\Properties\launchSettings.json

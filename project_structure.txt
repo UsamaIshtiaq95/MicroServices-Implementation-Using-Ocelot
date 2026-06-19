@@ -1,0 +1,1032 @@
+Folder PATH listing for volume Movies
+Volume serial number is BCCB-ABE4
+G:.
+³   .gitattributes
+³   .gitignore
+³   MicrServices Demo.sln
+³   MicrServices Demo.slnLaunch.user
+³   project_structure.txt
+³   README.md
+³   Test-Updated .postman_collection.json
+³   
+ÃÄÄÄ.github
+³   ÀÄÄÄworkflows
+ÃÄÄÄApplicatiom
+³   ³   Application.csproj
+³   ³   
+³   ÃÄÄÄbin
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³       Application.deps.json
+³   ³       ³       Application.dll
+³   ³       ³       Application.pdb
+³   ³       ³       UserDomain.dll
+³   ³       ³       UserDomain.pdb
+³   ³       ³       
+³   ³       ÀÄÄÄnet8.0
+³   ³               Application.deps.json
+³   ³               Application.dll
+³   ³               Application.pdb
+³   ³               UserDomain.dll
+³   ³               UserDomain.pdb
+³   ³               
+³   ÃÄÄÄDTO
+³   ³       Login.cs
+³   ³       Register.cs
+³   ³       UpdateDetails.cs
+³   ³       
+³   ÃÄÄÄHandler
+³   ³       LoginHandler.cs
+³   ³       RegisterHandler.cs
+³   ³       UpdateUserDetailhandler.cs
+³   ³       
+³   ÃÄÄÄobj
+³   ³   ³   Application.csproj.nuget.dgspec.json
+³   ³   ³   Application.csproj.nuget.g.props
+³   ³   ³   Application.csproj.nuget.g.targets
+³   ³   ³   project.assets.json
+³   ³   ³   project.nuget.cache
+³   ³   ³   
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³   ³   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+³   ³       ³   ³   Applicat.44B5EDA2.Up2Date
+³   ³       ³   ³   Application.AssemblyInfo.cs
+³   ³       ³   ³   Application.AssemblyInfoInputs.cache
+³   ³       ³   ³   Application.assets.cache
+³   ³       ³   ³   Application.csproj.AssemblyReference.cache
+³   ³       ³   ³   Application.csproj.CoreCompileInputs.cache
+³   ³       ³   ³   Application.csproj.FileListAbsolute.txt
+³   ³       ³   ³   Application.dll
+³   ³       ³   ³   Application.GeneratedMSBuildEditorConfig.editorconfig
+³   ³       ³   ³   Application.GlobalUsings.g.cs
+³   ³       ³   ³   Application.pdb
+³   ³       ³   ³   Application.sourcelink.json
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄref
+³   ³       ³   ³       Application.dll
+³   ³       ³   ³       
+³   ³       ³   ÀÄÄÄrefint
+³   ³       ³           Application.dll
+³   ³       ³           
+³   ³       ÀÄÄÄnet8.0
+³   ³           ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+³   ³           ³   Applicat.44B5EDA2.Up2Date
+³   ³           ³   Application.AssemblyInfo.cs
+³   ³           ³   Application.AssemblyInfoInputs.cache
+³   ³           ³   Application.assets.cache
+³   ³           ³   Application.csproj.AssemblyReference.cache
+³   ³           ³   Application.csproj.BuildWithSkipAnalyzers
+³   ³           ³   Application.csproj.CoreCompileInputs.cache
+³   ³           ³   Application.csproj.FileListAbsolute.txt
+³   ³           ³   Application.dll
+³   ³           ³   Application.GeneratedMSBuildEditorConfig.editorconfig
+³   ³           ³   Application.GlobalUsings.g.cs
+³   ³           ³   Application.pdb
+³   ³           ³   Application.sourcelink.json
+³   ³           ³   
+³   ³           ÃÄÄÄref
+³   ³           ³       Application.dll
+³   ³           ³       
+³   ³           ÀÄÄÄrefint
+³   ³                   Application.dll
+³   ³                   
+³   ÃÄÄÄRequest
+³   ³       LoginRequest.cs
+³   ³       RegisterRequest.cs
+³   ³       UpdateUserDetailRequest.cs
+³   ³       
+³   ÀÄÄÄResponse
+³           LoginResponse.cs
+³           RegisterResponse.cs
+³           UpdateUserDetailResponse.cs
+³           
+ÃÄÄÄGatewayApi
+³   ³   appsettings.Development.json
+³   ³   appsettings.json
+³   ³   GatewayApi.csproj
+³   ³   GatewayApi.csproj.user
+³   ³   ocelot.json
+³   ³   Program.cs
+³   ³   
+³   ÃÄÄÄbin
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³       appsettings.Development.json
+³   ³       ³       appsettings.json
+³   ³       ³       FluentValidation.dll
+³   ³       ³       GatewayApi.deps.json
+³   ³       ³       GatewayApi.dll
+³   ³       ³       GatewayApi.exe
+³   ³       ³       GatewayApi.pdb
+³   ³       ³       GatewayApi.runtimeconfig.json
+³   ³       ³       GatewayApi.staticwebassets.endpoints.json
+³   ³       ³       IPAddressRange.dll
+³   ³       ³       Microsoft.AspNetCore.JsonPatch.dll
+³   ³       ³       Microsoft.AspNetCore.MiddlewareAnalysis.dll
+³   ³       ³       Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+³   ³       ³       Microsoft.AspNetCore.OpenApi.dll
+³   ³       ³       Microsoft.Extensions.DiagnosticAdapter.dll
+³   ³       ³       Microsoft.OpenApi.dll
+³   ³       ³       Newtonsoft.Json.Bson.dll
+³   ³       ³       Newtonsoft.Json.dll
+³   ³       ³       Ocelot.dll
+³   ³       ³       ocelot.json
+³   ³       ³       Swashbuckle.AspNetCore.Swagger.dll
+³   ³       ³       Swashbuckle.AspNetCore.SwaggerGen.dll
+³   ³       ³       Swashbuckle.AspNetCore.SwaggerUI.dll
+³   ³       ³       
+³   ³       ÀÄÄÄnet8.0
+³   ÃÄÄÄobj
+³   ³   ³   GatewayApi.csproj.nuget.dgspec.json
+³   ³   ³   GatewayApi.csproj.nuget.g.props
+³   ³   ³   GatewayApi.csproj.nuget.g.targets
+³   ³   ³   project.assets.json
+³   ³   ³   project.nuget.cache
+³   ³   ³   
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³   ³   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+³   ³       ³   ³   ApiEndpoints.json
+³   ³       ³   ³   apphost.exe
+³   ³       ³   ³   GatewayApi.AssemblyInfo.cs
+³   ³       ³   ³   GatewayApi.AssemblyInfoInputs.cache
+³   ³       ³   ³   GatewayApi.assets.cache
+³   ³       ³   ³   GatewayApi.csproj.AssemblyReference.cache
+³   ³       ³   ³   GatewayApi.csproj.CoreCompileInputs.cache
+³   ³       ³   ³   GatewayApi.csproj.FileListAbsolute.txt
+³   ³       ³   ³   GatewayApi.csproj.Up2Date
+³   ³       ³   ³   GatewayApi.dll
+³   ³       ³   ³   GatewayApi.GeneratedMSBuildEditorConfig.editorconfig
+³   ³       ³   ³   GatewayApi.genruntimeconfig.cache
+³   ³       ³   ³   GatewayApi.GlobalUsings.g.cs
+³   ³       ³   ³   GatewayApi.MvcApplicationPartsAssemblyInfo.cache
+³   ³       ³   ³   GatewayApi.MvcApplicationPartsAssemblyInfo.cs
+³   ³       ³   ³   GatewayApi.pdb
+³   ³       ³   ³   GatewayApi.sourcelink.json
+³   ³       ³   ³   rjsmcshtml.dswa.cache.json
+³   ³       ³   ³   rjsmrazor.dswa.cache.json
+³   ³       ³   ³   rpswa.dswa.cache.json
+³   ³       ³   ³   staticwebassets.build.endpoints.json
+³   ³       ³   ³   staticwebassets.build.json
+³   ³       ³   ³   staticwebassets.build.json.cache
+³   ³       ³   ³   staticwebassets.references.upToDateCheck.txt
+³   ³       ³   ³   staticwebassets.removed.txt
+³   ³       ³   ³   swae.build.ex.cache
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄref
+³   ³       ³   ³       GatewayApi.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄrefint
+³   ³       ³   ³       GatewayApi.dll
+³   ³       ³   ³       
+³   ³       ³   ÀÄÄÄstaticwebassets
+³   ³       ÀÄÄÄnet8.0
+³   ³           ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+³   ³           ³   GatewayApi.AssemblyInfo.cs
+³   ³           ³   GatewayApi.AssemblyInfoInputs.cache
+³   ³           ³   GatewayApi.assets.cache
+³   ³           ³   GatewayApi.csproj.AssemblyReference.cache
+³   ³           ³   GatewayApi.csproj.CoreCompileInputs.cache
+³   ³           ³   GatewayApi.csproj.FileListAbsolute.txt
+³   ³           ³   GatewayApi.GeneratedMSBuildEditorConfig.editorconfig
+³   ³           ³   GatewayApi.GlobalUsings.g.cs
+³   ³           ³   GatewayApi.MvcApplicationPartsAssemblyInfo.cache
+³   ³           ³   GatewayApi.MvcApplicationPartsAssemblyInfo.cs
+³   ³           ³   GatewayApi.sourcelink.json
+³   ³           ³   rpswa.dswa.cache.json
+³   ³           ³   staticwebassets.removed.txt
+³   ³           ³   
+³   ³           ÃÄÄÄref
+³   ³           ÃÄÄÄrefint
+³   ³           ÀÄÄÄstaticwebassets
+³   ÀÄÄÄProperties
+³           launchSettings.json
+³           
+ÃÄÄÄInfrastructure
+³   ³   AppDbContext.cs
+³   ³   Infrastructure.csproj
+³   ³   
+³   ÃÄÄÄbin
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³   ³   Infrastructure.deps.json
+³   ³       ³   ³   Infrastructure.dll
+³   ³       ³   ³   Infrastructure.pdb
+³   ³       ³   ³   Infrastructure.runtimeconfig.json
+³   ³       ³   ³   UserDomain.dll
+³   ³       ³   ³   UserDomain.pdb
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄBuildHost-net472
+³   ³       ³   ³   ³   Microsoft.Build.Locator.dll
+³   ³       ³   ³   ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe
+³   ³       ³   ³   ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config
+³   ³       ³   ³   ³   Microsoft.IO.Redist.dll
+³   ³       ³   ³   ³   Newtonsoft.Json.dll
+³   ³       ³   ³   ³   System.Buffers.dll
+³   ³       ³   ³   ³   System.Collections.Immutable.dll
+³   ³       ³   ³   ³   System.CommandLine.dll
+³   ³       ³   ³   ³   System.Memory.dll
+³   ³       ³   ³   ³   System.Numerics.Vectors.dll
+³   ³       ³   ³   ³   System.Runtime.CompilerServices.Unsafe.dll
+³   ³       ³   ³   ³   System.Threading.Tasks.Extensions.dll
+³   ³       ³   ³   ³   
+³   ³       ³   ³   ÃÄÄÄcs
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄde
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄes
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄfr
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄit
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄja
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄko
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄpl
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄpt-BR
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄru
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄtr
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄzh-Hans
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÀÄÄÄzh-Hant
+³   ³       ³   ³           System.CommandLine.resources.dll
+³   ³       ³   ³           
+³   ³       ³   ÀÄÄÄBuildHost-netcore
+³   ³       ³       ³   Microsoft.Build.Locator.dll
+³   ³       ³       ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.deps.json
+³   ³       ³       ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+³   ³       ³       ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json
+³   ³       ³       ³   Newtonsoft.Json.dll
+³   ³       ³       ³   System.Collections.Immutable.dll
+³   ³       ³       ³   System.CommandLine.dll
+³   ³       ³       ³   
+³   ³       ³       ÃÄÄÄcs
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄde
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄes
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄfr
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄit
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄja
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄko
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄpl
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄpt-BR
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄru
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄtr
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÃÄÄÄzh-Hans
+³   ³       ³       ³       System.CommandLine.resources.dll
+³   ³       ³       ³       
+³   ³       ³       ÀÄÄÄzh-Hant
+³   ³       ³               System.CommandLine.resources.dll
+³   ³       ³               
+³   ³       ÃÄÄÄnet8.0
+³   ³       ÀÄÄÄnet9.0
+³   ÃÄÄÄMigrations
+³   ³       20260404144849_InitialCreate.cs
+³   ³       20260404144849_InitialCreate.Designer.cs
+³   ³       AppDbContextModelSnapshot.cs
+³   ³       
+³   ÃÄÄÄobj
+³   ³   ³   Infrastructure.csproj.nuget.dgspec.json
+³   ³   ³   Infrastructure.csproj.nuget.g.props
+³   ³   ³   Infrastructure.csproj.nuget.g.targets
+³   ³   ³   project.assets.json
+³   ³   ³   project.nuget.cache
+³   ³   ³   
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³   ³   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+³   ³       ³   ³   Infrastr.15EFFBFE.Up2Date
+³   ³       ³   ³   Infrastructure.AssemblyInfo.cs
+³   ³       ³   ³   Infrastructure.AssemblyInfoInputs.cache
+³   ³       ³   ³   Infrastructure.assets.cache
+³   ³       ³   ³   Infrastructure.csproj.AssemblyReference.cache
+³   ³       ³   ³   Infrastructure.csproj.BuildWithSkipAnalyzers
+³   ³       ³   ³   Infrastructure.csproj.CoreCompileInputs.cache
+³   ³       ³   ³   Infrastructure.csproj.FileListAbsolute.txt
+³   ³       ³   ³   Infrastructure.dll
+³   ³       ³   ³   Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+³   ³       ³   ³   Infrastructure.genruntimeconfig.cache
+³   ³       ³   ³   Infrastructure.GlobalUsings.g.cs
+³   ³       ³   ³   Infrastructure.pdb
+³   ³       ³   ³   Infrastructure.sourcelink.json
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄref
+³   ³       ³   ³       Infrastructure.dll
+³   ³       ³   ³       
+³   ³       ³   ÀÄÄÄrefint
+³   ³       ³           Infrastructure.dll
+³   ³       ³           
+³   ³       ÃÄÄÄnet8.0
+³   ³       ³   ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+³   ³       ³   ³   Infrastructure.AssemblyInfo.cs
+³   ³       ³   ³   Infrastructure.AssemblyInfoInputs.cache
+³   ³       ³   ³   Infrastructure.assets.cache
+³   ³       ³   ³   Infrastructure.csproj.AssemblyReference.cache
+³   ³       ³   ³   Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+³   ³       ³   ³   Infrastructure.GlobalUsings.g.cs
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄref
+³   ³       ³   ÀÄÄÄrefint
+³   ³       ÀÄÄÄnet9.0
+³   ³           ³   .NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+³   ³           ³   Infrastructure.AssemblyInfo.cs
+³   ³           ³   Infrastructure.AssemblyInfoInputs.cache
+³   ³           ³   Infrastructure.assets.cache
+³   ³           ³   Infrastructure.csproj.AssemblyReference.cache
+³   ³           ³   Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+³   ³           ³   Infrastructure.GlobalUsings.g.cs
+³   ³           ³   
+³   ³           ÃÄÄÄref
+³   ³           ÀÄÄÄrefint
+³   ÃÄÄÄRepositories
+³   ³       UserRepository.cs
+³   ³       
+³   ÀÄÄÄServices
+³           JWTTokenProvider.cs
+³           
+ÃÄÄÄUserApi
+³   ³   appsettings.Development.json
+³   ³   appsettings.json
+³   ³   Program.cs
+³   ³   UserApi.csproj
+³   ³   UserApi.csproj.user
+³   ³   UserApi.http
+³   ³   UserDb.sqlite
+³   ³   UserDb.sqlite-shm
+³   ³   UserDb.sqlite-wal
+³   ³   WeatherForecast.cs
+³   ³   
+³   ÃÄÄÄbin
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³   ³   Application.dll
+³   ³       ³   ³   Application.pdb
+³   ³       ³   ³   appsettings.Development.json
+³   ³       ³   ³   appsettings.json
+³   ³       ³   ³   Azure.Core.dll
+³   ³       ³   ³   Azure.Identity.dll
+³   ³       ³   ³   Humanizer.dll
+³   ³       ³   ³   Infrastructure.dll
+³   ³       ³   ³   Infrastructure.pdb
+³   ³       ³   ³   MediatR.Contracts.dll
+³   ³       ³   ³   MediatR.dll
+³   ³       ³   ³   Microsoft.AspNet.Identity.Core.dll
+³   ³       ³   ³   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+³   ³       ³   ³   Microsoft.Bcl.AsyncInterfaces.dll
+³   ³       ³   ³   Microsoft.Bcl.Cryptography.dll
+³   ³       ³   ³   Microsoft.Build.Framework.dll
+³   ³       ³   ³   Microsoft.CodeAnalysis.CSharp.dll
+³   ³       ³   ³   Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+³   ³       ³   ³   Microsoft.CodeAnalysis.dll
+³   ³       ³   ³   Microsoft.CodeAnalysis.ExternalAccess.RazorCompiler.dll
+³   ³       ³   ³   Microsoft.CodeAnalysis.Workspaces.dll
+³   ³       ³   ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+³   ³       ³   ³   Microsoft.Data.SqlClient.dll
+³   ³       ³   ³   Microsoft.EntityFrameworkCore.Abstractions.dll
+³   ³       ³   ³   Microsoft.EntityFrameworkCore.Design.dll
+³   ³       ³   ³   Microsoft.EntityFrameworkCore.dll
+³   ³       ³   ³   Microsoft.EntityFrameworkCore.Relational.dll
+³   ³       ³   ³   Microsoft.EntityFrameworkCore.SqlServer.dll
+³   ³       ³   ³   Microsoft.Extensions.DependencyModel.dll
+³   ³       ³   ³   Microsoft.Identity.Client.dll
+³   ³       ³   ³   Microsoft.Identity.Client.Extensions.Msal.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Abstractions.dll
+³   ³       ³   ³   Microsoft.IdentityModel.JsonWebTokens.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Logging.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Protocols.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Tokens.dll
+³   ³       ³   ³   Microsoft.OpenApi.dll
+³   ³       ³   ³   Microsoft.SqlServer.Server.dll
+³   ³       ³   ³   Microsoft.VisualStudio.SolutionPersistence.dll
+³   ³       ³   ³   Mono.TextTemplating.dll
+³   ³       ³   ³   Newtonsoft.Json.dll
+³   ³       ³   ³   Swashbuckle.AspNetCore.Swagger.dll
+³   ³       ³   ³   Swashbuckle.AspNetCore.SwaggerGen.dll
+³   ³       ³   ³   Swashbuckle.AspNetCore.SwaggerUI.dll
+³   ³       ³   ³   System.ClientModel.dll
+³   ³       ³   ³   System.CodeDom.dll
+³   ³       ³   ³   System.Composition.AttributedModel.dll
+³   ³       ³   ³   System.Composition.Convention.dll
+³   ³       ³   ³   System.Composition.Hosting.dll
+³   ³       ³   ³   System.Composition.Runtime.dll
+³   ³       ³   ³   System.Composition.TypedParts.dll
+³   ³       ³   ³   System.Configuration.ConfigurationManager.dll
+³   ³       ³   ³   System.IdentityModel.Tokens.Jwt.dll
+³   ³       ³   ³   System.Memory.Data.dll
+³   ³       ³   ³   System.Security.Cryptography.ProtectedData.dll
+³   ³       ³   ³   UserApi.deps.json
+³   ³       ³   ³   UserApi.dll
+³   ³       ³   ³   UserApi.exe
+³   ³       ³   ³   UserApi.pdb
+³   ³       ³   ³   UserApi.runtimeconfig.json
+³   ³       ³   ³   UserApi.staticwebassets.endpoints.json
+³   ³       ³   ³   UserDomain.dll
+³   ³       ³   ³   UserDomain.pdb
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄBuildHost-net472
+³   ³       ³   ³   ³   Microsoft.Build.Locator.dll
+³   ³       ³   ³   ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe
+³   ³       ³   ³   ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.exe.config
+³   ³       ³   ³   ³   Microsoft.IO.Redist.dll
+³   ³       ³   ³   ³   Newtonsoft.Json.dll
+³   ³       ³   ³   ³   System.Buffers.dll
+³   ³       ³   ³   ³   System.Collections.Immutable.dll
+³   ³       ³   ³   ³   System.CommandLine.dll
+³   ³       ³   ³   ³   System.Memory.dll
+³   ³       ³   ³   ³   System.Numerics.Vectors.dll
+³   ³       ³   ³   ³   System.Runtime.CompilerServices.Unsafe.dll
+³   ³       ³   ³   ³   System.Threading.Tasks.Extensions.dll
+³   ³       ³   ³   ³   
+³   ³       ³   ³   ÃÄÄÄcs
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄde
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄes
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄfr
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄit
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄja
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄko
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄpl
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄpt-BR
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄru
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄtr
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄzh-Hans
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÀÄÄÄzh-Hant
+³   ³       ³   ³           System.CommandLine.resources.dll
+³   ³       ³   ³           
+³   ³       ³   ÃÄÄÄBuildHost-netcore
+³   ³       ³   ³   ³   Microsoft.Build.Locator.dll
+³   ³       ³   ³   ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.deps.json
+³   ³       ³   ³   ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+³   ³       ³   ³   ³   Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.runtimeconfig.json
+³   ³       ³   ³   ³   Newtonsoft.Json.dll
+³   ³       ³   ³   ³   System.Collections.Immutable.dll
+³   ³       ³   ³   ³   System.CommandLine.dll
+³   ³       ³   ³   ³   
+³   ³       ³   ³   ÃÄÄÄcs
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄde
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄes
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄfr
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄit
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄja
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄko
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄpl
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄpt-BR
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄru
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄtr
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÃÄÄÄzh-Hans
+³   ³       ³   ³   ³       System.CommandLine.resources.dll
+³   ³       ³   ³   ³       
+³   ³       ³   ³   ÀÄÄÄzh-Hant
+³   ³       ³   ³           System.CommandLine.resources.dll
+³   ³       ³   ³           
+³   ³       ³   ÃÄÄÄcs
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄde
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄes
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄfr
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄit
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄja
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄko
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄpl
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄpt-BR
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄru
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄruntimes
+³   ³       ³   ³   ÃÄÄÄunix
+³   ³       ³   ³   ³   ÀÄÄÄlib
+³   ³       ³   ³   ³       ÀÄÄÄnet9.0
+³   ³       ³   ³   ³               Microsoft.Data.SqlClient.dll
+³   ³       ³   ³   ³               
+³   ³       ³   ³   ÃÄÄÄwin
+³   ³       ³   ³   ³   ÀÄÄÄlib
+³   ³       ³   ³   ³       ÀÄÄÄnet9.0
+³   ³       ³   ³   ³               Microsoft.Data.SqlClient.dll
+³   ³       ³   ³   ³               
+³   ³       ³   ³   ÃÄÄÄwin-arm64
+³   ³       ³   ³   ³   ÀÄÄÄnative
+³   ³       ³   ³   ³           Microsoft.Data.SqlClient.SNI.dll
+³   ³       ³   ³   ³           
+³   ³       ³   ³   ÃÄÄÄwin-x64
+³   ³       ³   ³   ³   ÀÄÄÄnative
+³   ³       ³   ³   ³           Microsoft.Data.SqlClient.SNI.dll
+³   ³       ³   ³   ³           
+³   ³       ³   ³   ÀÄÄÄwin-x86
+³   ³       ³   ³       ÀÄÄÄnative
+³   ³       ³   ³               Microsoft.Data.SqlClient.SNI.dll
+³   ³       ³   ³               
+³   ³       ³   ÃÄÄÄtr
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄzh-Hans
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³   ³       Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÀÄÄÄzh-Hant
+³   ³       ³           Microsoft.CodeAnalysis.CSharp.resources.dll
+³   ³       ³           Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+³   ³       ³           Microsoft.CodeAnalysis.resources.dll
+³   ³       ³           Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+³   ³       ³           Microsoft.CodeAnalysis.Workspaces.resources.dll
+³   ³       ³           Microsoft.Data.SqlClient.resources.dll
+³   ³       ³           
+³   ³       ÀÄÄÄnet8.0
+³   ÃÄÄÄControllers
+³   ³       UserApiController.cs
+³   ³       
+³   ÃÄÄÄMiddleware
+³   ³       ExceptionMiddlware.cs
+³   ³       
+³   ÃÄÄÄobj
+³   ³   ³   project.assets.json
+³   ³   ³   project.nuget.cache
+³   ³   ³   UserApi.csproj.nuget.dgspec.json
+³   ³   ³   UserApi.csproj.nuget.g.props
+³   ³   ³   UserApi.csproj.nuget.g.targets
+³   ³   ³   
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³   ³   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+³   ³       ³   ³   ApiEndpoints.json
+³   ³       ³   ³   apphost.exe
+³   ³       ³   ³   rjsmcshtml.dswa.cache.json
+³   ³       ³   ³   rjsmrazor.dswa.cache.json
+³   ³       ³   ³   rpswa.dswa.cache.json
+³   ³       ³   ³   staticwebassets.build.endpoints.json
+³   ³       ³   ³   staticwebassets.build.json
+³   ³       ³   ³   staticwebassets.build.json.cache
+³   ³       ³   ³   staticwebassets.references.upToDateCheck.txt
+³   ³       ³   ³   staticwebassets.removed.txt
+³   ³       ³   ³   swae.build.ex.cache
+³   ³       ³   ³   UserApi.AssemblyInfo.cs
+³   ³       ³   ³   UserApi.AssemblyInfoInputs.cache
+³   ³       ³   ³   UserApi.assets.cache
+³   ³       ³   ³   UserApi.csproj.AssemblyReference.cache
+³   ³       ³   ³   UserApi.csproj.BuildWithSkipAnalyzers
+³   ³       ³   ³   UserApi.csproj.CoreCompileInputs.cache
+³   ³       ³   ³   UserApi.csproj.FileListAbsolute.txt
+³   ³       ³   ³   UserApi.csproj.Up2Date
+³   ³       ³   ³   UserApi.dll
+³   ³       ³   ³   UserApi.GeneratedMSBuildEditorConfig.editorconfig
+³   ³       ³   ³   UserApi.genruntimeconfig.cache
+³   ³       ³   ³   UserApi.GlobalUsings.g.cs
+³   ³       ³   ³   UserApi.MvcApplicationPartsAssemblyInfo.cache
+³   ³       ³   ³   UserApi.MvcApplicationPartsAssemblyInfo.cs
+³   ³       ³   ³   UserApi.pdb
+³   ³       ³   ³   UserApi.sourcelink.json
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄEndpointInfo
+³   ³       ³   ³       UserApi.json
+³   ³       ³   ³       UserApi.OpenApiFiles.cache
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄref
+³   ³       ³   ³       UserApi.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄrefint
+³   ³       ³   ³       UserApi.dll
+³   ³       ³   ³       
+³   ³       ³   ÀÄÄÄstaticwebassets
+³   ³       ÀÄÄÄnet8.0
+³   ³           ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+³   ³           ³   rpswa.dswa.cache.json
+³   ³           ³   staticwebassets.removed.txt
+³   ³           ³   UserApi.AssemblyInfo.cs
+³   ³           ³   UserApi.AssemblyInfoInputs.cache
+³   ³           ³   UserApi.assets.cache
+³   ³           ³   UserApi.csproj.AssemblyReference.cache
+³   ³           ³   UserApi.GeneratedMSBuildEditorConfig.editorconfig
+³   ³           ³   UserApi.GlobalUsings.g.cs
+³   ³           ³   
+³   ³           ÃÄÄÄref
+³   ³           ÃÄÄÄrefint
+³   ³           ÀÄÄÄstaticwebassets
+³   ÀÄÄÄProperties
+³           launchSettings.json
+³           
+ÃÄÄÄUserAuthApi
+³   ³   appsettings.Development.json
+³   ³   appsettings.json
+³   ³   Program.cs
+³   ³   UserAuthApi.csproj
+³   ³   UserAuthApi.csproj.user
+³   ³   UserAuthApi.http
+³   ³   UserDb.sqlite
+³   ³   WeatherForecast.cs
+³   ³   
+³   ÃÄÄÄbin
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³   ³   Application.dll
+³   ³       ³   ³   Application.pdb
+³   ³       ³   ³   appsettings.Development.json
+³   ³       ³   ³   appsettings.json
+³   ³       ³   ³   Azure.Core.dll
+³   ³       ³   ³   Azure.Identity.dll
+³   ³       ³   ³   Infrastructure.dll
+³   ³       ³   ³   Infrastructure.pdb
+³   ³       ³   ³   MediatR.Contracts.dll
+³   ³       ³   ³   MediatR.dll
+³   ³       ³   ³   Microsoft.AspNet.Identity.Core.dll
+³   ³       ³   ³   Microsoft.AspNetCore.Authentication.JwtBearer.dll
+³   ³       ³   ³   Microsoft.Bcl.AsyncInterfaces.dll
+³   ³       ³   ³   Microsoft.Bcl.Cryptography.dll
+³   ³       ³   ³   Microsoft.Data.SqlClient.dll
+³   ³       ³   ³   Microsoft.EntityFrameworkCore.Abstractions.dll
+³   ³       ³   ³   Microsoft.EntityFrameworkCore.dll
+³   ³       ³   ³   Microsoft.EntityFrameworkCore.Relational.dll
+³   ³       ³   ³   Microsoft.EntityFrameworkCore.SqlServer.dll
+³   ³       ³   ³   Microsoft.Identity.Client.dll
+³   ³       ³   ³   Microsoft.Identity.Client.Extensions.Msal.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Abstractions.dll
+³   ³       ³   ³   Microsoft.IdentityModel.JsonWebTokens.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Logging.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Protocols.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+³   ³       ³   ³   Microsoft.IdentityModel.Tokens.dll
+³   ³       ³   ³   Microsoft.OpenApi.dll
+³   ³       ³   ³   Microsoft.SqlServer.Server.dll
+³   ³       ³   ³   Swashbuckle.AspNetCore.Swagger.dll
+³   ³       ³   ³   Swashbuckle.AspNetCore.SwaggerGen.dll
+³   ³       ³   ³   Swashbuckle.AspNetCore.SwaggerUI.dll
+³   ³       ³   ³   System.ClientModel.dll
+³   ³       ³   ³   System.Configuration.ConfigurationManager.dll
+³   ³       ³   ³   System.IdentityModel.Tokens.Jwt.dll
+³   ³       ³   ³   System.Memory.Data.dll
+³   ³       ³   ³   System.Security.Cryptography.ProtectedData.dll
+³   ³       ³   ³   UserAuthApi.deps.json
+³   ³       ³   ³   UserAuthApi.dll
+³   ³       ³   ³   UserAuthApi.exe
+³   ³       ³   ³   UserAuthApi.pdb
+³   ³       ³   ³   UserAuthApi.runtimeconfig.json
+³   ³       ³   ³   UserAuthApi.staticwebassets.endpoints.json
+³   ³       ³   ³   UserDomain.dll
+³   ³       ³   ³   UserDomain.pdb
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄcs
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄde
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄes
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄfr
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄit
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄja
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄko
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄpl
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄpt-BR
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄru
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄruntimes
+³   ³       ³   ³   ÃÄÄÄunix
+³   ³       ³   ³   ³   ÀÄÄÄlib
+³   ³       ³   ³   ³       ÀÄÄÄnet9.0
+³   ³       ³   ³   ³               Microsoft.Data.SqlClient.dll
+³   ³       ³   ³   ³               
+³   ³       ³   ³   ÃÄÄÄwin
+³   ³       ³   ³   ³   ÀÄÄÄlib
+³   ³       ³   ³   ³       ÀÄÄÄnet9.0
+³   ³       ³   ³   ³               Microsoft.Data.SqlClient.dll
+³   ³       ³   ³   ³               
+³   ³       ³   ³   ÃÄÄÄwin-arm64
+³   ³       ³   ³   ³   ÀÄÄÄnative
+³   ³       ³   ³   ³           Microsoft.Data.SqlClient.SNI.dll
+³   ³       ³   ³   ³           
+³   ³       ³   ³   ÃÄÄÄwin-x64
+³   ³       ³   ³   ³   ÀÄÄÄnative
+³   ³       ³   ³   ³           Microsoft.Data.SqlClient.SNI.dll
+³   ³       ³   ³   ³           
+³   ³       ³   ³   ÀÄÄÄwin-x86
+³   ³       ³   ³       ÀÄÄÄnative
+³   ³       ³   ³               Microsoft.Data.SqlClient.SNI.dll
+³   ³       ³   ³               
+³   ³       ³   ÃÄÄÄtr
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄzh-Hans
+³   ³       ³   ³       Microsoft.Data.SqlClient.resources.dll
+³   ³       ³   ³       
+³   ³       ³   ÀÄÄÄzh-Hant
+³   ³       ³           Microsoft.Data.SqlClient.resources.dll
+³   ³       ³           
+³   ³       ÀÄÄÄnet8.0
+³   ÃÄÄÄControllers
+³   ³       AuthApiController.cs
+³   ³       
+³   ÃÄÄÄMiddleware
+³   ³       ExceptionMiddlware.cs
+³   ³       
+³   ÃÄÄÄobj
+³   ³   ³   project.assets.json
+³   ³   ³   project.nuget.cache
+³   ³   ³   UserAuthApi.csproj.nuget.dgspec.json
+³   ³   ³   UserAuthApi.csproj.nuget.g.props
+³   ³   ³   UserAuthApi.csproj.nuget.g.targets
+³   ³   ³   
+³   ³   ÀÄÄÄDebug
+³   ³       ÃÄÄÄnet10.0
+³   ³       ³   ³   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+³   ³       ³   ³   ApiEndpoints.json
+³   ³       ³   ³   apphost.exe
+³   ³       ³   ³   rjsmcshtml.dswa.cache.json
+³   ³       ³   ³   rjsmrazor.dswa.cache.json
+³   ³       ³   ³   rpswa.dswa.cache.json
+³   ³       ³   ³   staticwebassets.build.endpoints.json
+³   ³       ³   ³   staticwebassets.build.json
+³   ³       ³   ³   staticwebassets.build.json.cache
+³   ³       ³   ³   staticwebassets.references.upToDateCheck.txt
+³   ³       ³   ³   staticwebassets.removed.txt
+³   ³       ³   ³   swae.build.ex.cache
+³   ³       ³   ³   UserAuth.8A6FF9D0.Up2Date
+³   ³       ³   ³   UserAuthApi.AssemblyInfo.cs
+³   ³       ³   ³   UserAuthApi.AssemblyInfoInputs.cache
+³   ³       ³   ³   UserAuthApi.assets.cache
+³   ³       ³   ³   UserAuthApi.csproj.AssemblyReference.cache
+³   ³       ³   ³   UserAuthApi.csproj.CoreCompileInputs.cache
+³   ³       ³   ³   UserAuthApi.csproj.FileListAbsolute.txt
+³   ³       ³   ³   UserAuthApi.dll
+³   ³       ³   ³   UserAuthApi.GeneratedMSBuildEditorConfig.editorconfig
+³   ³       ³   ³   UserAuthApi.genruntimeconfig.cache
+³   ³       ³   ³   UserAuthApi.GlobalUsings.g.cs
+³   ³       ³   ³   UserAuthApi.MvcApplicationPartsAssemblyInfo.cache
+³   ³       ³   ³   UserAuthApi.MvcApplicationPartsAssemblyInfo.cs
+³   ³       ³   ³   UserAuthApi.pdb
+³   ³       ³   ³   UserAuthApi.sourcelink.json
+³   ³       ³   ³   
+³   ³       ³   ÃÄÄÄEndpointInfo
+³   ³       ³   ³       UserAuthApi.json
+³   ³       ³   ³       UserAuthApi.OpenApiFiles.cache
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄref
+³   ³       ³   ³       UserAuthApi.dll
+³   ³       ³   ³       
+³   ³       ³   ÃÄÄÄrefint
+³   ³       ³   ³       UserAuthApi.dll
+³   ³       ³   ³       
+³   ³       ³   ÀÄÄÄstaticwebassets
+³   ³       ÀÄÄÄnet8.0
+³   ³           ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+³   ³           ³   rpswa.dswa.cache.json
+³   ³           ³   staticwebassets.removed.txt
+³   ³           ³   UserAuthApi.AssemblyInfo.cs
+³   ³           ³   UserAuthApi.AssemblyInfoInputs.cache
+³   ³           ³   UserAuthApi.assets.cache
+³   ³           ³   UserAuthApi.csproj.AssemblyReference.cache
+³   ³           ³   UserAuthApi.GeneratedMSBuildEditorConfig.editorconfig
+³   ³           ³   UserAuthApi.GlobalUsings.g.cs
+³   ³           ³   
+³   ³           ÃÄÄÄref
+³   ³           ÃÄÄÄrefint
+³   ³           ÀÄÄÄstaticwebassets
+³   ÀÄÄÄProperties
+³           launchSettings.json
+³           
+ÀÄÄÄUserDomain
+    ³   Class1.cs
+    ³   CustomExceptions.cs
+    ³   Exceptions.cs
+    ³   UserDomain.csproj
+    ³   
+    ÃÄÄÄbin
+    ³   ÀÄÄÄDebug
+    ³       ÃÄÄÄnet10.0
+    ³       ³       UserDomain.deps.json
+    ³       ³       UserDomain.dll
+    ³       ³       UserDomain.pdb
+    ³       ³       
+    ³       ÀÄÄÄnet8.0
+    ³               UserDomain.deps.json
+    ³               UserDomain.dll
+    ³               UserDomain.pdb
+    ³               
+    ÃÄÄÄEntities
+    ³       User.cs
+    ³       
+    ÃÄÄÄInterface
+    ³       ITokenService.cs
+    ³       IUserRepository.cs
+    ³       
+    ÀÄÄÄobj
+        ³   project.assets.json
+        ³   project.nuget.cache
+        ³   UserDomain.csproj.nuget.dgspec.json
+        ³   UserDomain.csproj.nuget.g.props
+        ³   UserDomain.csproj.nuget.g.targets
+        ³   
+        ÀÄÄÄDebug
+            ÃÄÄÄnet10.0
+            ³   ³   .NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+            ³   ³   UserDomain.AssemblyInfo.cs
+            ³   ³   UserDomain.AssemblyInfoInputs.cache
+            ³   ³   UserDomain.assets.cache
+            ³   ³   UserDomain.csproj.CoreCompileInputs.cache
+            ³   ³   UserDomain.csproj.FileListAbsolute.txt
+            ³   ³   UserDomain.dll
+            ³   ³   UserDomain.GeneratedMSBuildEditorConfig.editorconfig
+            ³   ³   UserDomain.GlobalUsings.g.cs
+            ³   ³   UserDomain.pdb
+            ³   ³   UserDomain.sourcelink.json
+            ³   ³   
+            ³   ÃÄÄÄref
+            ³   ³       UserDomain.dll
+            ³   ³       
+            ³   ÀÄÄÄrefint
+            ³           UserDomain.dll
+            ³           
+            ÀÄÄÄnet8.0
+                ³   .NETCoreApp,Version=v8.0.AssemblyAttributes.cs
+                ³   UserDomain.AssemblyInfo.cs
+                ³   UserDomain.AssemblyInfoInputs.cache
+                ³   UserDomain.assets.cache
+                ³   UserDomain.csproj.BuildWithSkipAnalyzers
+                ³   UserDomain.csproj.CoreCompileInputs.cache
+                ³   UserDomain.csproj.FileListAbsolute.txt
+                ³   UserDomain.dll
+                ³   UserDomain.GeneratedMSBuildEditorConfig.editorconfig
+                ³   UserDomain.GlobalUsings.g.cs
+                ³   UserDomain.pdb
+                ³   UserDomain.sourcelink.json
+                ³   
+                ÃÄÄÄref
+                ³       UserDomain.dll
+                ³       
+                ÀÄÄÄrefint
+                        UserDomain.dll
+                        

@@ -1,4 +1,4 @@
-﻿
+
 using UserDomain.Entities;
 
 namespace UserDomain.Interface;

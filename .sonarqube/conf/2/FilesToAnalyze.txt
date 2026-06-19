@@ -1,0 +1,16 @@
+﻿H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\AppDbContext.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Migrations\20260408114124_InitialMigration.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Migrations\20260408114124_InitialMigration.Designer.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Migrations\AppDbContextModelSnapshot.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\AdminRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\AIResultRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\ApiKeyRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\ChatMessageRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\ChatRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\ContextRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\ImageRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\LogRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\Repository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\RoomRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Repositories\UserRepository.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\Infrastructure\Services\JWTTokenProvider.cs

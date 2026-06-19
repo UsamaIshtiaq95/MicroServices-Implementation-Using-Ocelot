@@ -1,0 +1,9 @@
+﻿H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\GatewayApi\Program.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\GatewayApi\obj\Debug\net10.0\GatewayApi.GlobalUsings.g.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\GatewayApi\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\GatewayApi\obj\Debug\net10.0\GatewayApi.AssemblyInfo.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\GatewayApi\obj\Debug\net10.0\GatewayApi.MvcApplicationPartsAssemblyInfo.cs
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\GatewayApi\appsettings.Development.json
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\GatewayApi\appsettings.json
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\GatewayApi\ocelot.json
+H:\Projects for Practice\MicroServices-Implementation-Using-Ocelot\GatewayApi\Properties\launchSettings.json

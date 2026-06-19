@@ -1,4 +1,4 @@
-﻿namespace UserAuthApi.Middleware;
+namespace UserAuthApi.Middleware;
     public class ExceptionMiddlware
 {
     private readonly RequestDelegate _next;
